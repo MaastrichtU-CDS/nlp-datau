@@ -1,7 +1,5 @@
 class DataUtils(object):
 
-
-
     @staticmethod
     def get_json_field_dot_notation(key, json):
         x = json
