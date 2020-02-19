@@ -1,0 +1,3 @@
+elasticsearch>=7.0.0,<8.0.0
+xmltodict
+spacy>=2.2.0,<2.3.0
