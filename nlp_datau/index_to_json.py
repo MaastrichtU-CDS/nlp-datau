@@ -1,5 +1,5 @@
 from elasticsearch import Elasticsearch
-from nlpdatau.data_utils import DataUtils
+from nlp_datau.data_utils import DataUtils
 import spacy
 import json
 

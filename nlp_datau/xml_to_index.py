@@ -3,7 +3,7 @@ import xmltodict
 import json
 
 from pathlib import Path
-from nlpdatau.data_utils import DataUtils
+from nlp_datau.data_utils import DataUtils
 
 es = Elasticsearch()
 

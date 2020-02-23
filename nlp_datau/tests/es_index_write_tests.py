@@ -1,7 +1,7 @@
 import unittest
 
-from nlpdatau.index_to_json import IndexToJson
-from nlpdatau.xml_to_index import XmlToIndex
+from nlp_datau.index_to_json import IndexToJson
+from nlp_datau.xml_to_index import XmlToIndex
 
 # elasticsearch index (start elasticsearch with docker-compose)
 es_index = "xml-index"
