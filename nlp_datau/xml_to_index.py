@@ -62,19 +62,27 @@ def get_doc_whitelisted(doc, id, whitelist_dict):
 
 class XmlToIndex(object):
 
-    def iterate_xml_dir(self, directory_in_str, extension, es_index, field_id, whitelist_dict=None):
+    def iterate_xml_dir(self, directory_in_str, extension, es_index, field_id, whitelist_dict=None, encoding="utf8"):
+        logger.info('start iteration %s', directory_in_str)
         pathlist = Path(directory_in_str).glob('**/*' + extension)
         count = 0
         for path in pathlist:
             count = count + 1
             path_in_str = str(path)
-            with open(path_in_str) as in_file:
-                logger.debug('read-%s', path_in_str)
-                xml = in_file.read()
-                doc = json.loads(json.dumps(xmltodict.parse(xml)))
-                self.index(doc, es_index, field_id, whitelist_dict)
+            with open(path_in_str, encoding=encoding) as in_file:
+                logger.debug('read %s', str(path_in_str))
+                try:
+                    xml = in_file.read()
+                    doc = json.loads(json.dumps(xmltodict.parse(xml)))
+                    self.index(doc, es_index, field_id, whitelist_dict)
+                except UnicodeDecodeError as e:
+                    logger.error("Error indexing %s", in_file)
+
             if count % 100 == 0:
                 logger.info('count %s', count)
+        if count == 0:
+            logger.warning("no files found in %s", directory_in_str)
+        logger.info('iteration finished %s', directory_in_str)
 
     def index(self, doc, es_index, field_id, whitelist_dict=None):
         logger.debug('doc=%s', doc)
