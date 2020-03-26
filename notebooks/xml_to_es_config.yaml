@@ -1,0 +1,18 @@
+directory_in_str: '/Data/Research'
+# xml configuration using json dot notation
+field_id: "ClinicalDocument.setId.@extension"
+
+
+#mumc_whitelist_dict = {
+#  "text": {
+#    "field": "ClinicalDocument.component.structuredBody.component.section.entryRelationship.observationMedia.value.#text",
+#    "type": "base64"
+#    }
+#}
+whitelist_dict:
+  - text":
+      "field": "ClinicalDocument.component.structuredBody.component.section.text"
+      "type": "xml"
+      "xml-field": "getReportTextByAccessionnrResult.REPORT.REPORT_BODY.TEXT"
+      "start-line": "Verslagstatus:"
+      "stop-line": "Met collegiale groet,"
