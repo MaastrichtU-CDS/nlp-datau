@@ -1,0 +1,9 @@
+#configuration for T-stage TNM
+path_excel_sheet: './../resources/tnm-tn-new-validate.xlsx'
+column_actual: 'label_T'
+column_predicted: 'class_T'
+valid_values:
+  - 'T1'
+  - 'T2'
+  - 'T3'
+  - 'T4'
