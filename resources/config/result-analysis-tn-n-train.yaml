@@ -1,0 +1,10 @@
+#configuration for T-stage TNM
+path_excel_sheet: './../resources/data/20200109-tnm-tn-train.xlsx'
+column_actual: 'label_N'
+column_predicted: 'class_N'
+valid_values:
+  - 'N0'
+  - 'N1'
+  - 'N2'
+  - 'N3'
+path_output_dir: './../resources/results/20200116-tnm-tn-train-n'

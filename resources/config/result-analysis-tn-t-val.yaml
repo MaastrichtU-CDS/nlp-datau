@@ -1,0 +1,16 @@
+#configuration for T-stage TNM
+path_excel_sheet: './../resources/data/20200116-tnm-tn-val.xlsx'
+column_actual: 'label_T_complete'
+column_predicted: 'class_T_complete'
+valid_values:
+  - 'T0'
+  - 'T1'
+  - 'T1a'
+  - 'T1b'
+  - 'T1c'
+  - 'T2'
+  - 'T2a'
+  - 'T2b'
+  - 'T3'
+  - 'T4'
+path_output_dir: './../resources/results/20200116-tnm-tn-val-t'
