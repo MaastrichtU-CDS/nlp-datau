@@ -1,8 +1,8 @@
 Accuracy = 100.0%
 
        Precision  Recall  F-score
-True         1.0     1.0      1.0
 False        1.0     1.0      1.0
+True         1.0     1.0      1.0
 
 Predicted  False  True  All
 Actual                     

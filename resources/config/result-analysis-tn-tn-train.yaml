@@ -1,0 +1,7 @@
+#configuration for T-stage TNM
+path_excel_sheet: './../resources/data/20200109-tnm-tn-train-merge.xlsx'
+column_actual: 'label_TN'
+column_predicted: 'class_TN'
+ignored_values:
+  - '?'
+path_output_dir: './../resources/results/20200116-tnm-tn-train-merge'
