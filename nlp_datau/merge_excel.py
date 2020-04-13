@@ -43,4 +43,5 @@ def merge_pre_post(path_pre, path_post, col_subject, col_timestamp):
         print('Subject ' + str(subject) + ' (' + str(index) + '/' + subjects_len + ')')
         pre = merge_subject(subject, col_subject, col_timestamp, pre, post)
 
-    return pre
+    merged = pd.merge(pre, post, how='left', left_on=['POST_instance_key'], right_on=['instance_key'])
+    return pre, merged

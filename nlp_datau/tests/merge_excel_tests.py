@@ -1,4 +1,5 @@
 import unittest
+import pandas as pd
 
 from nlp_datau.merge_excel import merge_pre_post
 
@@ -11,5 +12,7 @@ col_timestamp = 'timestamp'
 
 class TestIndexMethods(unittest.TestCase):
 
-    result = merge_pre_post(path_pre, path_post, col_subject_id, col_timestamp)
-    result.to_excel('merged.xlsx')
+    result, merged = merge_pre_post(path_pre, path_post, col_subject_id, col_timestamp)
+    result.to_excel('pre_merged.xlsx')
+    merged.to_excel('pre_merged_post.xlsx')
+
