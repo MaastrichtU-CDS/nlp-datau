@@ -23,10 +23,10 @@ def clean_value(whitelist_value, field_value):
             if next_line_index:
                 field_value = field_value[next_line_index:len(field_value) - 1]
     if 'end-line' in whitelist_value:
-        stop_line = whitelist_value['end-line']
-        stop_index = field_value.find(stop_line)
-        if stop_index:
-            field_value = field_value[0:stop_index]
+        end_line = whitelist_value['end-line']
+        end_index = field_value.find(end_line)
+        if end_index:
+            field_value = field_value[0:end_index]
     return field_value
 
 
