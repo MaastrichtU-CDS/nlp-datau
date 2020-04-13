@@ -44,7 +44,7 @@ class TestIndexMethods(unittest.TestCase):
                 "type": "xml",
                 "xml-field": "getReportTextByAccessionnrResult.REPORT.REPORT_BODY.TEXT",
                 "start-line": "Verslagstatus:",
-                "stop-line": "Met collegiale groet,"
+                "end-line": "Met collegiale groet,"
             }
         }
 
