@@ -28,6 +28,7 @@ def merge_subject(subject, col_subject, col_timestamp, pre, post):
 
     return pre
 
+
 def merge_pre_post(path_pre, path_post, col_subject, col_timestamp):
     pre = pd.read_csv(path_pre)
     post = pd.read_csv(path_post)

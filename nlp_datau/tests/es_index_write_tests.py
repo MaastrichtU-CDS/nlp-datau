@@ -1,7 +1,6 @@
 import unittest
 import pandas
 
-from nlp_datau import index_to_xlsx
 from nlp_datau.index_to_json import IndexToJson
 from nlp_datau.index_to_xlsx import IndexToXlsx
 from nlp_datau.xml_to_index import XmlToIndex
