@@ -2,10 +2,17 @@
 
 Data Utilities for PRE/POST-processing NLP-data and analysis of results.
 
-- Prepare datasets for doccano annotation using an xml-file-reader and elasticsearch
-- Calculate statistics over results in excel sheets
-- Link subject PRE and POST responses [link](notebooks/link_subject_pre_post_responses.ipynb)
+ElasticSearch
+- XML documents to ElasticSearch [link](notebooks/xlsx_template_parsing.ipynb) 
+- ElasticSearch documents to Excel [link](notebooks/es_to_xlsx.ipynb)
+- Prepare a dataset for doccano annotation using ElasticSearch [link](notebooks/es_to_doccano.ipynb)
 - Template parsing [link](notebooks/xlsx_template_parsing.ipynb)
+
+Stats
+- Calculate NLP statistics over classification results in excel format [link](notebooks/xlsx_nlp_stats.ipynb)
+
+Other
+- Link subject PRE and POST responses [link](notebooks/link_subject_pre_post_responses.ipynb)
 
 
 ## Dependencies ##

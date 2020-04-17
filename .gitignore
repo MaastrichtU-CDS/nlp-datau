@@ -1,5 +1,6 @@
 *.iml
-data/
 *.pyc
 *.ipynb_checkpoints*
+data/
+data_ignored/
 resources/results/
