@@ -4,7 +4,8 @@ Data Utilities for PRE/POST-processing NLP-data and analysis of results.
 
 - Prepare datasets for doccano annotation using an xml-file-reader and elasticsearch
 - Calculate statistics over results in excel sheets
-- Link subject PRE and POST responses 
+- Link subject PRE and POST responses [link](notebooks/link_subject_pre_post_responses.ipynb)
+- Template parsing [link](notebooks/xlsx_template_parsing.ipynb)
 
 
 ## Dependencies ##
@@ -36,4 +37,4 @@ RECOMMENDED:
 
 6. Navigate to the desired notebook in the browser (directory notebooks)
 
-7. Data can be copied to the resources/data folder
+7. Data can be copied to the resources/data folder (needs to be created)
