@@ -20,9 +20,9 @@ services:
       - 127.0.0.1:9300:9300
 
   jupyter-nlp-datau:
-    image: jupyter/datascience-notebook:latest
+    image: putssander/datascience-notebook-nlp-datau:latest
     container_name: jupyter-nlp-datau
     ports:
-      - '10000:8888'
+      - '8888:8888'
     volumes:
       - "./:/home/jovyan/work"

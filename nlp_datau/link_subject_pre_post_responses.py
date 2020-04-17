@@ -1,9 +1,27 @@
 import math
-
 import pandas as pd
 
 
-def merge_subject(subject, col_subject, col_timestamp, pre, post):
+def link_pre_post_responses(path_pre, path_post, col_subject, col_timestamp):
+    pre = pd.read_csv(path_pre)
+    post = pd.read_csv(path_post)
+
+    pre["POST_instance_key"] = None
+
+    subjects = pre[col_subject].unique()
+    subjects_len = str(len(subjects))
+
+    print('unique subjects', subjects_len)
+
+    for index, subject in enumerate(subjects):
+        print('Subject_id={} ({}/{})'.format(subject, index, subjects_len))
+        pre = link_subject_responses(subject, col_subject, col_timestamp, pre, post)
+
+    merged = pd.merge(pre, post, how='left', left_on=['POST_instance_key'], right_on=['instance_key'])
+    return pre, merged
+
+
+def link_subject_responses(subject, col_subject, col_timestamp, pre, post):
 
     subject_rows_pre = pre.loc[pre[col_subject] == subject]
     subject_rows_pre = subject_rows_pre.sort_values(col_timestamp)
@@ -24,25 +42,8 @@ def merge_subject(subject, col_subject, col_timestamp, pre, post):
         if len(result.index) > 0:
             pre.loc[pre['instance_key'] == row['instance_key'], ['POST_instance_key']] = result.iloc[0]['instance_key']
         else:
-            print('warn no hit', str(subject), start_current)
+            print('Warning no hit for subject={} timestamp={}'.format(subject, start_current))
 
     return pre
 
 
-def merge_pre_post(path_pre, path_post, col_subject, col_timestamp):
-    pre = pd.read_csv(path_pre)
-    post = pd.read_csv(path_post)
-
-    pre["POST_instance_key"] = None
-
-    subjects = pre[col_subject].unique()
-    subjects_len = str(len(subjects))
-
-    print('unique subjects', subjects_len)
-
-    for index, subject in enumerate(subjects):
-        print('Subject ' + str(subject) + ' (' + str(index) + '/' + subjects_len + ')')
-        pre = merge_subject(subject, col_subject, col_timestamp, pre, post)
-
-    merged = pd.merge(pre, post, how='left', left_on=['POST_instance_key'], right_on=['instance_key'])
-    return pre, merged
