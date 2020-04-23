@@ -10,7 +10,7 @@ logging.basicConfig()
 logger = logging.getLogger('index_to_xlsx')
 logger.setLevel(level=logging.INFO)
 
-es = Elasticsearch()
+es = Elasticsearch(host="doccano-dataset-tools-es01")
 
 
 
