@@ -11,7 +11,7 @@ logging.basicConfig()
 logger = logging.getLogger('python-processor')
 logger.setLevel(level=logging.INFO)
 
-es = Elasticsearch()
+es = Elasticsearch(host="doccano-dataset-tools-es01")
 
 
 def clean_value(whitelist_value, field_value):
