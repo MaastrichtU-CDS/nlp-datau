@@ -1,25 +1,18 @@
-import json
 
 from elasticsearch import Elasticsearch
 from nlp_datau.data_utils import DataUtils
-# import spacy
 import logging
 
-from spacy.matcher import PhraseMatcher
 logging.basicConfig()
 logger = logging.getLogger('index_to_xlsx')
 logger.setLevel(level=logging.INFO)
 
-es = Elasticsearch(host="doccano-dataset-tools-es01")
-
-
-
 
 class IndexToXlsx(object):
 
-    def __init__(self, es_index):
+    def __init__(self, es_index, es_host="localhost"):
         self.es_index = es_index
-        # self.nlp = spacy.load(model)
+        self.es = Elasticsearch(host=es_host)
 
     def get_source(self, doc_id):
         try:
@@ -36,7 +29,7 @@ class IndexToXlsx(object):
         return None
 
     def get_doc(self, doc_id):
-        return es.get(index=self.es_index, id=doc_id)
+        return self.es.get(index=self.es_index, id=doc_id)
 
     def merge(self, df, df_id_column, field_map):
         df['source'] = df.apply(lambda row: self.get_source(row[df_id_column]), axis=1)

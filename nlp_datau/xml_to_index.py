@@ -11,8 +11,6 @@ logging.basicConfig()
 logger = logging.getLogger('python-processor')
 logger.setLevel(level=logging.INFO)
 
-es = Elasticsearch(host="doccano-dataset-tools-es01")
-
 
 def clean_value(whitelist_value, field_value):
     if 'start-line' in whitelist_value:
@@ -62,6 +60,10 @@ def get_doc_whitelisted(doc, id, whitelist_dict):
 
 class XmlToIndex(object):
 
+    def __init__(self, es_host="localhost"):
+        self.es = Elasticsearch(host=es_host)
+
+
     def iterate_xml_dir(self, directory_in_str, extension, es_index, field_id, whitelist_dict=None, encoding="utf8"):
         logger.info('start iteration %s', directory_in_str)
         pathlist = Path(directory_in_str).glob('**/*' + extension)
@@ -93,8 +95,6 @@ class XmlToIndex(object):
         if whitelist_dict:
             doc = get_doc_whitelisted(doc, id, whitelist_dict)
 
-        res = es.index(index=es_index, id=id, body=doc)
+        res = self.es.index(index=es_index, id=id, body=doc)
         logger.debug("result %s", res['result'])
-
-
 

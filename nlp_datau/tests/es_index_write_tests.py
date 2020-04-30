@@ -82,7 +82,7 @@ class TestIndexMethods(unittest.TestCase):
         field_map = {"text": "text"}
 
         df_input = pandas.read_excel(source_xlsx, header=0)
-        to_xlsx = IndexToXlsx(es_index)
+        to_xlsx = IndexToXlsx(es_index, es_host="doccano-dataset-tools-es01")
         result_df = to_xlsx.merge(df_input, id_column, field_map=field_map)
         result_df.to_excel(result_xlsx)
 
