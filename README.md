@@ -11,10 +11,6 @@ ElasticSearch
 Stats
 - Calculate NLP statistics over classification results in excel format [link](notebooks/xlsx_nlp_stats.ipynb)
 
-Other
-- Link subject PRE and POST responses [link](notebooks/link_subject_pre_post_responses.ipynb)
-
-
 ## Dependencies ##
 
 REQUIRED:
