@@ -17,3 +17,12 @@ def regex_missing(txt, regex=r"Conclusie:(.*?)DISCLAIMER"):
     if len(list(re.finditer(regex, txt))) == 0:
         return True
     return False
+
+
+def normalize_regex(txt, targets):
+    for target in targets:
+        if len(list(re.finditer(target['Regex'], txt))) > 0:
+            return target['Type']
+    return ""
+
+
