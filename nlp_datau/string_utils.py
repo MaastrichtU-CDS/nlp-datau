@@ -14,6 +14,6 @@ def select_regex(txt, regex=r"Conclusie:(.*?)DISCLAIMER"):
 def regex_missing(txt, regex=r"Conclusie:(.*?)DISCLAIMER"):
     if not txt:
         return True
-    if len(re.finditer(regex, txt)) == 0:
+    if len(list(re.finditer(regex, txt))) == 0:
         return True
     return ""
