@@ -5,8 +5,10 @@ def select_regex(txt, regex=r"Conclusie:(.*?)DISCLAIMER"):
     if not txt:
         return None
     txt = str(txt).replace("\n", "").replace("\t", "")
-    iter = re.finditer(regex, txt)
+    item = None
     list = []
-    for item in iter:
+    for item in re.finditer(regex, txt):
         list.append(txt[item.start(): item.end()])
+    if item is None:
+        return "NOT_FOUND " + str(regex)
     return "\n".join(list)
