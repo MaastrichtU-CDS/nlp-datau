@@ -21,7 +21,7 @@ def regex_missing(txt, regex=r"Conclusie:(.*?)DISCLAIMER"):
 
 def normalize_regex(txt, targets):
     for target in targets:
-        if len(list(re.finditer(target['Regex'], txt))) > 0:
+        if len(list(re.finditer(re.compile(target['Regex'], re.IGNORECASE), txt))) > 0:
             return target['Type']
     return ""
 
