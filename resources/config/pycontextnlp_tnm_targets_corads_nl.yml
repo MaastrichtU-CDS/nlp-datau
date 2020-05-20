@@ -1,35 +1,35 @@
 Comments: ''
 Direction: ''
 Lex: CORADS-1
-Regex: CO( |-)?RADS( |-)?(1|I\b|Ⅰ\b)
+Regex: CO( |-)?RADS( |-)?(1|I\b|Ⅰ\b|een|één)
 Type: 'CORADS-1'
 ---
 Comments: ''
 Direction: ''
 Lex: CORADS-2
-Regex: CO( |-)?RADS( |-)?(2|II\b|Ⅱ)
+Regex: CO( |-)?RADS( |-)?(2|II\b|Ⅱ|twee)
 Type: 'CORADS-2'
 ---
 Comments: ''
 Direction: ''
 Lex: CORADS-3
-Regex: CO( |-)?RADS( |-)?(3|III\b|Ⅲ)
+Regex: CO( |-)?RADS( |-)?(3|III\b|Ⅲ|drie)
 Type: 'CORADS-3'
 ---
 Comments: ''
 Direction: ''
 Lex: CORADS-4
-Regex: CO( |-)?RADS( |-)?(4|IV\b|Ⅳ)
+Regex: CO( |-)?RADS( |-)?(4|IV\b|Ⅳ|vier)
 Type: 'CORADS-4'
 ---
 Comments: ''
 Direction: ''
 Lex: CORADS-5
-Regex: CO( |-)?RADS( |-)?(5|V|Ⅴ)
+Regex: CO( |-)?RADS( |-)?(5|V|Ⅴ|vijf)
 Type: 'CORADS-5'
 ---
 Comments: ''
 Direction: ''
 Lex: CORADS-6
-Regex: CO( |-)?RADS( |-)?(6|VI\b|Ⅵ)
+Regex: CO( |-)?RADS( |-)?(6|VI\b|Ⅵ|zes)
 Type: 'CORADS-6'
