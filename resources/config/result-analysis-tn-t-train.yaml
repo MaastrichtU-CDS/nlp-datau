@@ -14,3 +14,4 @@ valid_values:
   - 'T3'
   - 'T4'
 path_output_dir: './../resources/results/20200116-tnm-tn-train-t'
+title_confusion_matrix: Confusion Matrix Training T-staging

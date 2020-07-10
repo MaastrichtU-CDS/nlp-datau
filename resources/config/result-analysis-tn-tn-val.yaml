@@ -1,7 +1,8 @@
 #configuration for T-stage TNM
-path_excel_sheet: './../resources/data/20200116-tnm-tn-val-merge.xlsx'
+path_excel_sheet: './../resources/data_ignored/results-tn-val-merge.xlsx'
 column_actual: 'label_TN'
 column_predicted: 'class_TN'
 ignored_values:
   - '?'
-path_output_dir: './../resources/results/20200116-tnm-tn-val-merge'
+path_output_dir: './../resources/results/results-tn-val-merge-result'
+title_confusion_matrix: Confusion Matrix Validation TN-staging
