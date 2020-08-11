@@ -1,0 +1,49 @@
+version: '3.7'
+
+services:
+  spacy-json-nlp-datau:
+    image: putssander/spacy-json-nlp:all_v2
+    container_name: spacy-json-nlp-medstruct-open
+    expose:
+    - '5001'
+    ports:
+    - '5001:5001'
+    environment:
+    - COREFERENCES=false
+    - CONSTITUENTS=false
+    networks:
+    - nlp-datau-network
+
+  pycontext-json-nlp-datau-en:
+    image: maastrodocker/pycontextnlp:latest
+    container_name: pycontext-json-nlp-datau-en
+    environment:
+    - MODIFIERS=/data/pycontextnlp_modifiers_en.yml
+    - TARGETS=/data/pycontextnlp_tnm_targets_en.yml
+    expose:
+    - '5003'
+    ports:
+    - '5030:5003'
+    volumes:
+    - "./resources/config/pycontextnlp:/data"
+    networks:
+    - nlp-datau-network
+
+  pycontext-json-nlp-datau-nl:
+    image: maastrodocker/pycontextnlp:latest
+    container_name: pycontext-json-nlp-datau-nl
+    environment:
+    - MODIFIERS=/data/pycontextnlp_modifiers_nl.yml
+    - TARGETS=/data/pycontextnlp_tnm_targets_nl.yml
+    expose:
+    - '5003'
+    ports:
+    - '5031:5003'
+    volumes:
+    - "./resources/config/pycontextnlp:/data"
+    networks:
+    - nlp-datau-network
+
+networks:
+  nlp-datau-network:
+    external: true

@@ -1,0 +1,35 @@
+Comments: ''
+Direction: ''
+Lex: BIRADS-0
+Regex: (?i)bi( |-)?rads( |-)?0
+Type: 'BIRADS-0'
+---
+Comments: ''
+Direction: ''
+Lex: BIRADS-1
+Regex: (?i)bi( |-)?rads( |-)?(1|I\b|Ⅰ\b)
+Type: 'BIRADS-1'
+---
+Comments: ''
+Direction: ''
+Lex: BIRADS-2
+Regex: (?i)bi( |-)?rads( |-)?(2|II\b|Ⅱ)
+Type: 'BIRADS-2'
+---
+Comments: ''
+Direction: ''
+Lex: BIRADS-3
+Regex: (?i)bi( |-)?rads( |-)?(3|III\b|Ⅲ)
+Type: 'BIRADS-3'
+---
+Comments: ''
+Direction: ''
+Lex: BIRADS-4
+Regex: (?i)bi( |-)?rads( |-)?(4|IV\b|Ⅳ)
+Type: 'BIRADS-4'
+---
+Comments: ''
+Direction: ''
+Lex: BIRADS-5
+Regex: (?i)bi( |-)?rads( |-)?(5|V\b|Ⅴ)
+Type: 'BIRADS-5'

@@ -1,0 +1,3563 @@
+  Lex: 'suggestie'
+  Type: PROBABLE_EXISTENCE
+  Regex: suggestie
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zijn uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'wordt uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan worden uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan niet worden uitgesloten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan niet volledig worden uitgesloten'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan worden uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: examen
+  Type: INDICATION
+  Regex: \b(onderzoek|examen|studie)\b
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: zonder
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zijn uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zit in het differentiaal'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: is\sin\shet\sdifferentiaal
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is negatief'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: '(is|was) negatief'
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is niet uitgesloten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: (is|was|zijn|waren)\sniet\suitgesloten
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is niet helemaal uitgesloten'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: '(is|was|zijn|waren|does)\sniet\s(geheel|totaal|zeker|compleet\s) uitgesloten'
+  Direction: backward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: 'added definitely'
+  Unnamed-6: 'removed ed'
+  Codes: ""
+---
+  Lex: 'is aanwezig'
+  Type: DEFINITE_EXISTENCE
+  Regex: '(is|zijn) aanwezig'
+  Direction: backward
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'moet worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan worden uitgesloten'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'moet worden uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet definitief waargenomen'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: 'niet definitief (gezien|waargenomen)'
+  Direction: backward
+  Unnamed-4: 3/22/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet uitgesloten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: niet\s(uitgezonderd|uit\ste\ssluiten)
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'nu meten'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zou moeten worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: vorderde
+  Type: HISTORICAL
+  Regex: ""
+  Direction: backward
+  Unnamed-4: 3/22/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: protocol
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: opgelost
+  Type: HISTORICAL
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'moet worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: vermoedelijk
+  Type: PROBABLE_EXISTENCE
+  Regex: "vermoedelijk"
+  Direction: bidirectional
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: onwaarschijnlijk
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'variërende leeftijden'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'was uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zal worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zou niet worden verwacht'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: acuut
+  Type: ACUTE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'nog een keer'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'leeftijd onbepaald'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: verschijnen
+  Type: PROBABLE_EXISTENCE
+  Regex: (\baanwezig\b|\bappears\b)
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan niet volledig worden uitgesloten'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: 'kan\sniet\s\((volledig|totaal|geheel)\s)?(uitgesloten|uitgesloten)'
+  Direction: bidirectional
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan niet worden geëvalueerd'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: chronisch
+  Type: HISTORICAL
+  Regex: '\bchronisch[a-z]*\b'
+  Direction: bidirectional
+  Unnamed-4: 2/28/2013
+  Unnamed-5: 'chronicity: make regular expression to capture variations'
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: onduidelijk
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: verminderde
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: dubbelzinnig
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: evaluatie
+  Type: INDICATION
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: evoluerende
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: genezing
+  Type: HISTORICAL
+  Regex: \b(genezing|genezen|geheeld)\b
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: verbeterd
+  Type: HISTORICAL
+  Regex: verbeter
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: 13-Apr
+  Codes: ""
+---
+  Lex: 'onvolledig geëvalueerd'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'interval verandering'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'interval toename'
+  Type: HISTORICAL
+  Regex: '(interval)\b[\d\D\s]*(stijging|toename)'
+  Direction: bidirectional
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'minder waarschijnlijk'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: waarschijnlijk
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'waarschijnlijk chronisch'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 2/28/2013
+  Unnamed-5: 'thought of just changing chronic to bidirectional'
+  Unnamed-6: ' but also capture likely'
+  Codes: ""
+---
+  Lex: 'kan worden uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: nieuwe
+  Type: ACUTE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'nieuw van voorafgaand examen'
+  Type: ACUTE
+  Regex: 'nieuw van(\sthe)? voorafgaande (examen|studie)'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen verandering'
+  Type: HISTORICAL
+  Regex: 'geen verandering'
+  Direction: bidirectional
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: 4/15/2013
+  Codes: ""
+---
+  Lex: 'niet langer genoteerd'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'niet langer (gezien|opgemerkt|zichtbaar|aanwezig)'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: niet
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: \bniet\b
+  Direction: bidirectional
+  Unnamed-4: 3/23/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet significant veranderd'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: oud
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'bij vorig onderzoek'
+  Type: HISTORICAL
+  Regex: '(bij|van)?(vorige|voorafgaande) onderzoek'
+  Direction: bidirectional
+  Unnamed-4: 'need regular expression'
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: aanhoudend
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: mogelijk
+  Type: PROBABLE_EXISTENCE
+  Regex: 'mogelijk'
+  Direction: bidirectional
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: voorgaand
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 3/21/2013
+  Unnamed-5: 'changed to bidirectional'
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'eerder beschreven'
+  Type: HISTORICAL
+  Regex: 'eerder (beschreven|vermoed)'
+  Direction: bidirectional
+  Unnamed-4: 3/21/2013
+  Unnamed-5: ""
+  Unnamed-6: 3/22/2013
+  Codes: ""
+---
+  Lex: voorafgaand
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'voorafgaand onderzoek'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: waarschijnlijk
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 3/21/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: twijfelachtig
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: uitgesloten
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'moet overwogen worden'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: stal
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'nog steeds duidelijk'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: subacute
+  Type: HISTORICAL
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'stel voor'
+  Type: PROBABLE_EXISTENCE
+  Regex: '\bvoorgesteld[a-z]+\b'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: onveranderd
+  Type: HISTORICAL
+  Regex: ongewijzigd|onveranderlijke
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: versus
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'afwezigheid van'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'voldoende om de patiënt uit te sluiten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'lijkt te zijn'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'beoordeling voor'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'met gevaar voor'
+  Type: FUTURE
+  Regex: '(met\s)?risico\s(in\sde\stoekomst\s)(voor|van)?'
+  Direction: forward
+  Unnamed-4: 4/29/2013
+  Unnamed-5: null
+  Unnamed-6: null
+  Codes: null
+---
+  Lex: 'atypisch voor'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'worden uitgesloten voor'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan worden uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan de patiënt uitsluiten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'kan (haar|hem|de patiënt) uitsluiten '
+  Direction: forward
+  Unnamed-4: null
+  Unnamed-5: null
+  Unnamed-6: null
+  Codes: null
+---
+  Lex: 'kan niet'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: 'kan regeren (haar|hem|de patiënt) eruit'
+  Direction: forward
+  Unnamed-4: null
+  Unnamed-5: null
+  Unnamed-6: null
+  Codes: null
+---
+  Lex: 'kan niet uitsluiten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: kan\sniet\suitsluiten
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan niet zien'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan niet volledig uitsluiten'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'veranderen in'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: veranderen
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'gecontroleerd voor'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'klinische bezorgdheid'
+  Type: FUTURE
+  Regex: 'klinisch (bezorgdheid|vermoeden)\b'
+  Direction: forward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: 'simplified expression '
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'klinische geschiedenis'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'compatibel met'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'betreffende voor'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'Overeenkomend met'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 2/14/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: overtuigend
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan worden uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: gedaald
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: dalingen
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'afname van'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: 'make regular expression to capture variations'
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'afname van'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: definitief
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: ontkend
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: ontkent
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: ontkennen
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: ontkennen
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'regeerde (de patiënt | hem | haar) uit'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'heeft uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'differentiële diagnose zou omvatten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: 'differentiële\s((diagnose|overwegingen)\s)?((zou|kon)\sincluderen[a-z]*)?'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: gedocumenteerd
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'evalueren voor'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'evaluatie van'
+  Type: INDICATION
+  Regex: evaluatie\s(van|voor)
+  Direction: forward
+  Unnamed-4: null
+  Unnamed-5: null
+  Unnamed-6: null
+  Codes: null
+---
+  Lex: bewijsmateriaal
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'keurde haar uit tegen'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'onderzoek voor'
+  Type: INDICATION
+  Regex: '(studie|examen|onderzoek) voor'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet te onthullen'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'vrij van'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'gram negatief'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'hogere gevoeligheid voor'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zeer suggestief'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 4/29/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geschiedenis van'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als er zijn'
+  Type: FUTURE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als er bezorgdheid voor is'
+  Type: FUTURE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'moet worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is gevoeliger'
+  Type: INDICATION
+  Regex: 'is gevoeliger'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: bekend
+  Type: HISTORICAL
+  Regex: \bbekend\b
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'lage waarschijnlijkheid'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan gerelateerd zijn'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan vertegenwoordigen'
+  Type: PROBABLE_EXISTENCE
+  Regex: '(zal|zou|misschien)\s(vertegenwoordigen|weerspiegelen|aangeven|een indicatie zijn)'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan worden uitgesloten'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: nabootsen
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 3/22/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'moet worden uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'negatief onderzoek voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'negatief (onderzoek|studie|examen|evaluatie) voor'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'negatief voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'nooit ontwikkeld'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'nooit gehad'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: nee
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: \bnee\b
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen abnormaal'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: 'changed from probable to definite'
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen oorzaak van'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen klachten van'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet overtuigend'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen definitief'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'geen[\s]*definitief'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen definitieve verandering'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 'need regular expression'
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen bewijs van'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: '(geen|zonder)\s((definitieve|andere|definitieve|secundaire|indirect)\s)?((radiografisch|echografische|CT|ct)\s)?bewijs\s(van|voor)'
+  Direction: forward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: 'added other probably consider simplifying re as XYZ'
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen bevindingen van'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen bevindingen om aan te geven'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen toename'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 4/16/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet nieuw'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet duidelijk'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen ander'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen significante'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen significante verandering'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen significante intervalverandering'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen suggestie'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen verdachte verandering'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 4/16/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen XYZ om te suggereren'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: '(\b(zonder|nee)\b[\d\D\s]* te suggereren)'
+  Direction: forward
+  Unnamed-4: 2/14/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: niet
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: \bniet\b
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet waarderen'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet geassocieerd met'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen oorzaak'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet zeker of'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet duidelijk zichtbaar'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 3/22/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet klagen'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet laten zien'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet afvoeren'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet vertonen'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet verlengen'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet voelen'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet gehad'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet hebben'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet weten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet bekend te hebben'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet noodzakelijk'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet onthullen'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet zien'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet zijn'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: niets
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'voor de hand liggend'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zou moeten worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'patiënt was dat niet'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'positieve studie voor'
+  Type: DEFINITE_EXISTENCE
+  Regex: 'positief (onderzoek|examen|examen) (voor)'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'aanleg voor'
+  Type: FUTURE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 2/14/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'progressie van'
+  Type: HISTORICAL
+  Regex: 'progressie \s (van|in)'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'liever dan'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: redemonstration
+  Type: HISTORICAL
+  Regex: '(redemonstrat[a-z]*|redemonstrat[a-z]*)'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: afgelegen
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 2/28/2013
+  Unnamed-5: 'added for Ami''s 19649'
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: vertegenwoordigt
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: overgebleven
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'resolutie van'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: oplossen
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'haar uitsluiten'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'hem uitsluiten'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'hem uitsluiten'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: uitsluiten
+  Type: INDICATION
+  Regex: '(r/o|uitgesloten|\br o \b|r\.o\.|\bro\b)'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'uitsluiten voor'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'sluit de patiënt uit voor'
+  Type: INDICATION
+  Regex: 'sluit (hem|haar|patiënt|de patiënt|onderwerp) uit'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'sluit de patiënt eruit'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'sluit de patiënt uit voor'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'sluit haar uit van'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'sluit\s(hem|haar|het onderwerp|de patiënt|subject|patiënt)\suit( tegen| van| voor)?'
+  Direction: forward
+  Unnamed-4: 4/16/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'uitgesloten tegen'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'uitgesloten voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'sluit haar uit'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'sluit haar uit voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: sluit\s(hem|haar)\suit\svan
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'sluit hem uit'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: sluit\s(hem|haar)\suit
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'regeert hem uit voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: sluit\s(hem|haar)\suit\svoor
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: uitsluiten
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'uitsluit voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'regelt de patiënt eruit'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'regeert de patiënt uit voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'gevolgen van'
+  Type: HISTORICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'moet worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: simuleren
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 3/22/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'onderzoek voor detectie'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'voldoende om uit te sluiten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'voldoende\som\suitsluiten\s((haar|hij|de patiënt|het onderwerp)\s)?uit'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: verdacht
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: suspicous
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'test voor'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: uitsluiten
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet in staat om adequaat te beoordelen'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet in staat om te beoordelen'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'onopvallend voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'gewaarschuwd voor'
+  Type: FUTURE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: 3/22/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'waren gewaarschuwd'
+  Type: FUTURE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'wat moet worden uitgesloten is'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zal worden uitgesloten'
+  Type: INDICATION
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: zonder
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zonder moeilijkheid'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zonder indicatie'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zonder teken'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'zonder teken(en)?'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: zorgelijk
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: '#NAAM?'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: hoewel
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'losstaand van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een oorzaak voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een etiologie voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een etiologie van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een reden voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een reden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorzaak voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire etiologie voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire etiologie van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorsprong voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorsprong van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire reden voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire reden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire bron voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire bron van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een bron voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een bron van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een oorzaak voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een etiologie voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een etiologie van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een oorsprong voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een oorsprong van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een reden voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een reden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorzaak voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire etiologie voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire etiologie van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorsprong voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire oorsprong van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire reden voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire reden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire bron voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een secundaire bron van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een bron voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een bron van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de oorzaak voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de etiologie voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de etiologie van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de oorsprong voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de oorsprong van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de reden voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de reden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire oorzaak voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire etiologie voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire etiologie van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire oorsprong voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire oorsprong van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire reden voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire reden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire bron voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de secundaire bron van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de bron voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als de bron van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zoals er zijn'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: 2/14/2013
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: behalve
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: maar
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorzaak van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorzaken voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorzaken van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'etiologie voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'etiologie van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: behalve
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: echter
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'erbij betrekken'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: niettemin
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorsprong voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorsprong van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorsprong voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'oorsprong van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'andere mogelijkheden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'reden voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'reden van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'redenen voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'redenen van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'ondergeschikt aan'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'bron voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'bron van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'bronnen voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'bronnen van'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'nog steeds'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: hoewel
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'trigger evenement voor'
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: welke
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: nog
+  Type: CONJ
+  Regex: ""
+  Direction: terminate
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: '(nee | niet) overtuigend'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: '(de patiënt | hem | haar) was dat niet'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'als een suggestie'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geassocieerd met'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: geloven
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: grens
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan uitsluiten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan uitsluiten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan uitsluiten voor'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan zien'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kan niet uitsluiten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: 'kan (de patiënt|hem|haar)?niet uitsluiten'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'volledig uitgesloten'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: '(volledig|totaal)?uitgesloten'
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'opgevat als'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zou kunnen'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kon niet worden geregeerd'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zou kunnen vertegenwoordigen'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: dubbelzinnig
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'elke indicatie'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: uitgesloten
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: tentoonstellen
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'grof bewijsmateriaal'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'grote kans'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zeer aarzelend'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'aanwijzing'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: "aanwijzing"
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'onvoldoende om te regeren (de patiënt | hem | haar) uit'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'is positief'
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen ander bewijs (CT | radiografie | sonographic | MR | etc)'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen secundaire (CT | radiografische | sonographic | MR | etc) -borden'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen achterdochtig'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet toereikend om uit te sluiten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: 'niet toereikend om ((de patiënt|hem|haar)\s)?uit te sluiten'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet aannemelijk'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'niet alleen'
+  Type: PSEUDONEG
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: onthult
+  Type: DEFINITE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'het beste gezien'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'tekenen van'
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen teken van'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen tekenen'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'geen teken(en)?'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zonder tekenen van'
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'zonder teken(en)? van'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geen duidelijke tekenen van'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: '(niet|zonder)(definief|definitieve|secundaire|indirecte) ((radiografische|sonografische|CT|ct)\s)?signalen\s(van|voor)'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'was niet uitgesloten'
+  Type: AMBIVALENT_EXISTENCE
+  Regex: '(was|zijn|waren) niet uitgesloten'
+  Direction: backward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: als
+  Type: HYPOTHETICAL
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kleiner worden'
+  Type: HISTORICAL
+  Regex: daling|daalde|afnemende|reductie|verlaagde
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: toename
+  Type: HISTORICAL
+  Regex: verhogen|toenemende|verhoogd
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: mogelijk
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'verminder de waarschijnlijkheid'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: 'verminder[a-z]+(\sde)?waarschijnlijkheid'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: verdachte
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'waarschijnlijk vertegenwoordigt'
+  Type: PROBABLE_EXISTENCE
+  Regex: 'waarschijnlijk (vertegenwoordigt|vertegenwoordigt|vertegenwoordigd)'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'zonder verandering'
+  Type: HISTORICAL
+  Regex: "zonder verandering"
+  Direction: backwards
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'risico factor'
+  Type: FUTURE
+  Regex: 'risicofactor(en)?'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: gunst
+  Type: PROBABLE_EXISTENCE
+  Regex: ""
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: geen
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: \bgeen\b
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: geen aanwijzing
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'geen aanwijzing'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: zonder aanwijzing
+  Type: DEFINITE_NEGATED_EXISTENCE
+  Regex: 'zonder aanwijzing'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: niet aanwezig
+  Type: DEFINITIVE_NEGATED
+  Regex: 'niet aanwezig'
+  Direction: backwards
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: dubieus
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: 'dubieus'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: onzeker
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: 'onzeker'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: niet met zekerheid vast te stellen
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: 'niet met zekerheid vast te stellen'
+  Direction: bidirectional
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'cave'
+  Type: PROBABLE_NEGATED_EXISTENCE
+  Regex: 'cave'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'wat'
+  Type: LIMITED_AMOUNT
+  Regex: 'wat|minimale|minimaal'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'enige'
+  Type: LIMITED_AMOUNT
+  Regex: 'enige'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'geringe'
+  Type: LIMITED_AMOUNT
+  Regex: 'geringe'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'kleine'
+  Type: LIMITED_AMOUNT
+  Regex: 'kleine'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'beetje'
+  Type: LIMITED_AMOUNT
+  Regex: 'beetje'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'weinig'
+  Type: LIMITED_AMOUNT
+  Regex: 'weinig'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""
+---
+  Lex: 'iets'
+  Type: LIMITED_AMOUNT
+  Regex: 'iets'
+  Direction: forward
+  Unnamed-4: ""
+  Unnamed-5: ""
+  Unnamed-6: ""
+  Codes: ""

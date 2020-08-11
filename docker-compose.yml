@@ -18,6 +18,8 @@ services:
     ports:
       - 127.0.0.1:9200:9200
       - 127.0.0.1:9300:9300
+    networks:
+      - nlp-datau-network
 
   jupyter-nlp-datau:
     image: putssander/datascience-notebook-nlp-datau:latest
@@ -26,3 +28,9 @@ services:
       - '8888:8888'
     volumes:
       - "./:/home/jovyan/work"
+    networks:
+      - nlp-datau-network
+
+networks:
+  nlp-datau-network:
+    external: true
