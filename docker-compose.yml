@@ -26,4 +26,3 @@ services:
       - '8888:8888'
     volumes:
       - "./:/home/jovyan/work"
-      - "E:/:/home/jovyan/work/E"
