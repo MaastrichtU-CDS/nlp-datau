@@ -1,8 +1,0 @@
-#configuration for T-stage TNM
-path_excel_sheet: './../resources/data_ignored/results-tn-train-merge.xlsx'
-column_actual: 'label_TN'
-column_predicted: 'class_TN'
-ignored_values:
-  - '?'
-path_output_dir: './../resources/results/results-tn-train-merge-result'
-title_confusion_matrix: Confusion Matrix Training TN-staging
