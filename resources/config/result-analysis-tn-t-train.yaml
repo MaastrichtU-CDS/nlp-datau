@@ -1,8 +1,14 @@
 #configuration for T-stage TNM
 path_excel_sheet: './../resources/data_ignored/tn-train-results.xlsx'
-column_actual: 'label_T'
-column_predicted: 'class_T'
+column_actual: 'label_T_complete'
+column_predicted: 'class_T_complete'
 ignored_values:
   - '?'
 path_output_dir: './../resources/results/results-tn-t-train-results'
-title_confusion_matrix: Confusion Matrix Training T-staging
+confusion_matrix:
+  title: Confusion Matrix Training T-staging
+  fig_size:
+    x: 8
+    y: 8
+  font_size: large
+  tick_label_font_size: medium

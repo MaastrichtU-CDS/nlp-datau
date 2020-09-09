@@ -5,4 +5,10 @@ column_predicted: 'class_N'
 ignored_values:
   - '?'
 path_output_dir: './../resources/results/results-tn-n-val-results'
-title_confusion_matrix: Confusion Matrix Validation N-staging
+confusion_matrix:
+  title: Confusion Matrix Validation N-staging
+  fig_size:
+    x: 8
+    y: 8
+  font_size: large
+  tick_label_font_size: medium
