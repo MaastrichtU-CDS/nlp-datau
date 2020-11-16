@@ -67,7 +67,8 @@ class IndexToTxt(object):
                 for doc in resp['hits']['hits']:
                     myfile.write(self.get_source_field(doc['_source'], field))
                     doc_count += 1
-                    print ("DOC COUNT:", doc_count)
+                    if doc_count % 100 == 0:
+                        print("DOC COUNT:", doc_count)
 
             # print the total time and document count at the end
             print ("\nTOTAL DOC COUNT:", doc_count)
