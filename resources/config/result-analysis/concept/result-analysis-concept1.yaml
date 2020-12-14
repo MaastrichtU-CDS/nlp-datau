@@ -4,7 +4,7 @@ column_actual: 'Concept 1 Actual'
 column_predicted: 'Concept 1 Predicted'
 ignored_values:
   - '?'
-path_output_dir: './../resources/results/t_v1_train_res-results'
+path_output_dir: './../resources/results/concept1'
 confusion_matrix:
   title: Confusion Matrix - Concept 1 (C0684249) - Test Set
   fig_size:
