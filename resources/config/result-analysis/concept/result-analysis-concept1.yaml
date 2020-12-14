@@ -1,0 +1,14 @@
+#configuration for Concept extraction
+path_excel_sheet: './../resources/data_ignored/Comparison with ground truth.xlsx'
+column_actual: 'Concept 1 Actual'
+column_predicted: 'Concept 1 Predicted'
+ignored_values:
+  - '?'
+path_output_dir: './../resources/results/t_v1_train_res-results'
+confusion_matrix:
+  title: Confusion Matrix - Concept 1 (C0684249) - Test Set
+  fig_size:
+    x: 4
+    y: 4
+  font_size: large
+  tick_label_font_size: medium

@@ -1,0 +1,14 @@
+#configuration for T-stage TNM
+path_excel_sheet: './../resources/data_ignored/t_v1_val_res.xlsx'
+column_actual: 'label_T'
+column_predicted: 'T4+T3+naive_class'
+ignored_values:
+  - '?'
+path_output_dir: './../resources/results/t_v1_val_simple_res-results'
+confusion_matrix:
+  title: Confusion Matrix Validation T-staging v1 Simple
+  fig_size:
+    x: 8
+    y: 8
+  font_size: large
+  tick_label_font_size: medium
