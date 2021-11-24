@@ -29,6 +29,7 @@ services:
       - '6006:6006'
     volumes:
       - "./:/home/jovyan/work"
+      - "D:/:/home/jovyan/work/D"
     networks:
       - nlp-datau-network
 
