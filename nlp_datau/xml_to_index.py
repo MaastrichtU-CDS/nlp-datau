@@ -28,6 +28,14 @@ def clean_value(whitelist_value, field_value):
     return field_value
 
 
+def get_list_item(list_value, key, match_key, match_value):
+    for item in list_value:
+        if match_key in item and item[match_key] == match_value:
+            if key in item:
+                return item[key]
+    return None
+
+
 def get_whitelist_value(key, whitelist_value, source_doc):
     field = whitelist_value['field']
     type = whitelist_value['type']
@@ -35,13 +43,17 @@ def get_whitelist_value(key, whitelist_value, source_doc):
     logger.debug("whitelist key=%s field=%s  type=%s", key, field, type)
     field_value = DataUtils.get_json_field_dot_notation(field, source_doc)
 
-    if type is "base64":
+    if type == "base64":
         field_value = base64.standard_b64decode(field_value)
-    if type is "xml":
+    if type == "xml":
         if not whitelist_value['xml-field']:
-            logger.debug('set xml-field for key=%s', field)
+            logger.debug('set xml-field for field=%s', field)
         json_value = json.loads(json.dumps(xmltodict.parse(field_value)))
         field_value = DataUtils.get_json_field_dot_notation(whitelist_value['xml-field'], json_value)
+    if type == "list":
+        if not whitelist_value['match-key']:
+            logger.debug('set match-key for field=%s', field)
+        field_value = get_list_item(field_value, whitelist_value['key'], whitelist_value['match-key'], whitelist_value['match-value'])
 
     return clean_value(whitelist_value, field_value)
 
