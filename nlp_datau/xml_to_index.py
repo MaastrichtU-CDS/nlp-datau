@@ -89,7 +89,7 @@ class XmlToIndex(object):
                     xml = in_file.read()
                     doc = json.loads(json.dumps(xmltodict.parse(xml)))
                     self.index(doc, es_index, field_id, whitelist_dict)
-                except UnicodeDecodeError as e:
+                except Exception as e:
                     logger.error("Error indexing %s", in_file)
 
             if count % 100 == 0:
