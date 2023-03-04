@@ -6,7 +6,7 @@ ignored_values:
   - '?'
 path_output_dir: './../resources/results/results-tn-train-results'
 confusion_matrix:
-  title: Confusion Matrix Training TN-staging
+  title: Confusion matrix training TN-staging
   fig_size:
     x: 16
     y: 16

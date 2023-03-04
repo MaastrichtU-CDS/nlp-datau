@@ -6,7 +6,7 @@ ignored_values:
   - '?'
 path_output_dir: './../resources/results/results-tn-val-results'
 confusion_matrix:
-  title: Confusion Matrix Validation TN-staging
+  title: Confusion matrix validation TN-staging
   fig_size:
     x: 16
     y: 16
